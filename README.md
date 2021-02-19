@@ -53,7 +53,7 @@ Uma classe deve ter um, e apenas um, motivo para ser modificada
 
 <br>
 
-## LSP- Liskov Substitution Principle
+## LSP - Liskov Substitution Principle
 
 “Let q(x) be a property provable about objects x of type T. Then q(y) should be provable for objects y of type S, where S is a subtype of T.”
 
@@ -61,7 +61,7 @@ Uma classe deve ter um, e apenas um, motivo para ser modificada
 
 <br>
 
-## - ISP - Interface Segregation Principle
+## ISP - Interface Segregation Principle
 
 “States that no client should be forced to depend on methods it does not use “
 
@@ -69,7 +69,7 @@ Uma classe deve ter um, e apenas um, motivo para ser modificada
 
 <br>
 
-## - DIP - Dependency Inversion Principle
+## DIP - Dependency Inversion Principle
 
 "High-level modules should not depend on low-level modules. Both should depend on abstractions. Abstractions should not depend on details. Details should depend on abstractions. “
 
