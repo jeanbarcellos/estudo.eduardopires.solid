@@ -57,9 +57,9 @@ Uma classe deve ter um, e apenas um, motivo para ser modificada
 
 “Let q(x) be a property provable about objects x of type T. Then q(y) should be provable for objects y of type S, where S is a subtype of T.”
 
-“Se q(x) é uma propriedade demonstrável dos objetos x de tipo T. Então q(y) deve ser verdadeiro para objetos y de tipo S onde S é um subtipo de T.” “Uma classe base deve poder ser substituída pela sua classe derivada.” 
+“Se q(x) é uma propriedade demonstrável dos objetos x de tipo T. Então q(y) deve ser verdadeiro para objetos y de tipo S onde S é um subtipo de T.” “Uma classe base deve poder ser substituída pela sua classe derivada.”
 
-*Se nada como um pato, voa como um pato, porém precisa de baterias, provavelmente você possui um problema de abstração*
+_Se nada como um pato, voa como um pato, porém precisa de baterias, provavelmente você possui um problema de abstração_
 
 <br>
 
@@ -67,7 +67,9 @@ Uma classe deve ter um, e apenas um, motivo para ser modificada
 
 “States that no client should be forced to depend on methods it does not use “
 
-“Clientes não devem ser forçados a depender de métodos que não usam.” Muitas interfaces específicas são melhores do que uma interface única.
+“Clientes não devem ser forçados a depender de métodos que não usam.”
+
+_Muitas interfaces específicas são melhores do que uma interface única._
 
 <br>
 
@@ -75,4 +77,6 @@ Uma classe deve ter um, e apenas um, motivo para ser modificada
 
 "High-level modules should not depend on low-level modules. Both should depend on abstractions. Abstractions should not depend on details. Details should depend on abstractions. “
 
-“Módulos de alto nível não devem depender de módulos de baixo nível. Ambos devem depender de abstrações; Abstrações não devem depender de detalhes. Detalhes devem depender de abstrações.” Dependa de uma abstração e não de uma implementação.
+“Módulos de alto nível não devem depender de módulos de baixo nível. Ambos devem depender de abstrações; Abstrações não devem depender de detalhes. Detalhes devem depender de abstrações.”
+
+_Dependa de uma abstração e não de uma implementação._
